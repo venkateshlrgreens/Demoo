@@ -12,6 +12,8 @@ public class CompanyDetails extends ClientDetails {
 	
 	public void compName() {
 		System.out.println("Company name is TCS");
+		System.out.println("Company name is TCS");
+
 	}
 	
 	public static void main(String[] args) {
