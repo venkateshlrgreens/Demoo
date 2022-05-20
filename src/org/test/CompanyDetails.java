@@ -6,6 +6,7 @@ public class CompanyDetails extends ClientDetails {
 	public void compId() {
 		System.out.println("Company id is 100");
 		System.out.println("Company id is 100");
+		System.out.println("Company id is 1000");
 
 	}
 	
