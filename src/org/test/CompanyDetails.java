@@ -1,11 +1,12 @@
 package org.test;
 
-import org.test1.ClientDetails;
-
-public class CompanyDetails {
+//Child Class
+public class CompanyDetails extends ClientDetails {
 	
 	public void compId() {
 		System.out.println("Company id is 100");
+		System.out.println("Company id is 100");
+
 	}
 	
 	public void compName() {
@@ -16,13 +17,11 @@ public class CompanyDetails {
 		CompanyDetails c=new CompanyDetails();
 		c.compId();
 		c.compName();
-		EmployeeDetails e=new EmployeeDetails();
-		e.empId();
-		e.empName();
-		ClientDetails cd=new ClientDetails();
-		cd.clientId();
-		cd.clientName();
-		
+		c.clientId();
+		c.clientName();
+		c.empId();
+		c.empName();
+				
 	}
 
 }
