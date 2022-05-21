@@ -6,6 +6,8 @@ public class CompanyDetails {
 	
 	public void compId() {
 		System.out.println("Company id is 100");
+		System.out.println("Company name is TCS");
+		System.out.println("Employee id is 1000000");
 	}
 	
 	public void compName() {
