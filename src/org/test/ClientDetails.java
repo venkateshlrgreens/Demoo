@@ -1,6 +1,7 @@
-package org.test1;
+package org.test;
 
-public class ClientDetails {
+//Parent
+public class ClientDetails extends EmployeeDetails {
 	
 	public void clientId() {
 		System.out.println("Client id is 1234");
