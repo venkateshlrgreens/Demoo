@@ -22,8 +22,8 @@ public class CompanyDetails extends ClientDetails {
 		c.compName();
 		c.clientId();
 		c.clientName();
-		c.empId();
-		c.empName();
+		//c.empId();
+		//c.empName();
 				
 	}
 
